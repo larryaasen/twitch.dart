@@ -1,0 +1,47 @@
+{
+  "stream": {
+    "_id": 32093303680,
+    "game": "Fortnite",
+    "broadcast_platform": "live",
+    "community_id": "",
+    "community_ids": [],
+    "viewers": 66786,
+    "video_height": 1080,
+    "average_fps": 60.0096015362,
+    "delay": 0,
+    "created_at": "2019-01-09T16:19:36Z",
+    "is_playlist": false,
+    "stream_type": "live",
+    "preview": {
+      "small": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-80x45.jpg",
+      "medium": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-320x180.jpg",
+      "large": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-640x360.jpg",
+      "template": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-{width}x{height}.jpg"
+    },
+    "channel": {
+      "mature": false,
+      "status": "Going for eliminations  | All merch and apparel at Teamninja.com | Ninja on ALL social medias \u003c3",
+      "broadcaster_language": "en",
+      "broadcaster_software": "",
+      "display_name": "Ninja",
+      "game": "Fortnite",
+      "language": "en",
+      "_id": 19571641,
+      "name": "ninja",
+      "created_at": "2011-01-16T04:31:20.024666Z",
+      "updated_at": "2019-01-09T23:33:20.240907Z",
+      "partner": true,
+      "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/cef31105-8a6e-4211-a74b-2f0bbd9791fb-profile_image-300x300.png",
+      "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/8f5af87e-2062-46f8-9e74-ab20d0c2215e-channel_offline_image-1920x1080.png",
+      "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/3a3a6569-292f-489e-9046-3245a28be5c4-profile_banner-480.png",
+      "profile_banner_background_color": "",
+      "url": "https://www.twitch.tv/ninja",
+      "views": 402052674,
+      "followers": 13039421,
+      "broadcaster_type": "",
+      "description": "Professional Battle Royale player. Follow my twitter @Ninja and for more content subscribe to my Youtube.com/Ninja",
+      "private_video": false,
+      "privacy_options_enabled": false
+    }
+  }
+}

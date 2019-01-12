@@ -6,10 +6,12 @@ import 'dart:async';
 
 import 'package:twitch/src/models/channel.dart';
 import 'package:twitch/src/models/game.dart';
+import 'package:twitch/src/models/stream.dart' as twitch_api;
 import 'package:twitch/src/models/top_game.dart';
 import 'package:twitch/src/models/video.dart';
 import 'package:twitch/src/specs/search_channels.dart';
 import 'package:twitch/src/specs/search_games.dart';
+import 'package:twitch/src/specs/search_streams.dart';
 import 'package:twitch/src/specs/top_games.dart';
 import 'package:twitch/src/specs/top_videos.dart';
 import 'package:twitch/src/specs/videos.dart';
@@ -48,6 +50,29 @@ class Twitch {
         queryParameters: {'query': query});
 
     return new Response(const SearchChannelsSpec(), response);
+  }
+
+  /// Returns streams sorted by current viewers on Twitch, most popular first.
+  ///
+  /// * [API Reference](https://dev.twitch.tv/docs/api/reference/#get-streams).
+  ///
+  /// _Authentication is not required._
+  Future<Response<twitch_api.Stream>> searchStreams() async {
+    final response = await _http(const ['streams']);
+
+    return new Response(const SearchStreamsSpec(), response);
+  }
+
+  /// Returns streams sorted by current viewers on Twitch, most popular first.
+  ///
+  /// * [API Reference](https://dev.twitch.tv/docs/api/reference/#get-streams).
+  ///
+  /// _Authentication is not required._
+  Future<twitch_api.Stream> getStreamByUser(int channelID) async {
+    final response = await _http(['streams', channelID.toString()], queryParameters: {'api_version': '5'});
+
+    final stream = response['stream'] as Map<String, Object>;
+    return twitch_api.Stream.fromJson(stream);
   }
 
   /// Returns a list of games sorted by relevancy

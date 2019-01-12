@@ -1,0 +1,66 @@
+{
+  "_total": 67724,
+  "streams": [{
+    "_id": 32046079040,
+    "game": "Castlevania Chronicles",
+    "viewers": 137399,
+    "video_height": 1080,
+    "average_fps": 60.0169061708,
+    "delay": 0,
+    "created_at": "2019-01-06T16:08:41Z",
+    "is_playlist": false,
+    "stream_type": "live",
+    "preview": {
+      "small": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gamesdonequick-80x45.jpg",
+      "medium": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gamesdonequick-320x180.jpg",
+      "large": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gamesdonequick-640x360.jpg",
+      "template": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gamesdonequick-{width}x{height}.jpg"
+    },
+    "channel": {
+      "mature": false,
+      "partner": true,
+      "status": "AGDQ 2019 benefiting Prevent Cancer Foundation - Castlevania Chronicles",
+      "broadcaster_language": "en",
+      "broadcaster_software": "",
+      "display_name": "GamesDoneQuick",
+      "game": "Castlevania Chronicles",
+      "language": "en",
+      "_id": 22510310,
+      "name": "gamesdonequick",
+      "created_at": "2011-05-20T18:19:19Z",
+      "updated_at": "2019-01-07T20:08:07Z",
+      "delay": null,
+      "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/b3fc1f16-0818-4121-8711-c31b9469bc21-profile_image-300x300.png",
+      "banner": null,
+      "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/7e682fac-b48d-4c42-a959-3beabc1954be-channel_offline_image-1920x1080.png",
+      "background": null,
+      "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/81f165a6-520e-4f63-9188-3454c59ff6fa-profile_banner-480.png",
+      "profile_banner_background_color": "",
+      "url": "https://www.twitch.tv/gamesdonequick",
+      "views": 215228454,
+      "followers": 1399459,
+      "_links": {
+        "self": "https://api.twitch.tv/kraken/channels/gamesdonequick",
+        "follows": "https://api.twitch.tv/kraken/channels/gamesdonequick/follows",
+        "commercial": "https://api.twitch.tv/kraken/channels/gamesdonequick/commercial",
+        "stream_key": "https://api.twitch.tv/kraken/channels/gamesdonequick/stream_key",
+        "chat": "https://api.twitch.tv/kraken/chat/gamesdonequick",
+        "features": "https://api.twitch.tv/kraken/channels/gamesdonequick/features",
+        "subscriptions": "https://api.twitch.tv/kraken/channels/gamesdonequick/subscriptions",
+        "editors": "https://api.twitch.tv/kraken/channels/gamesdonequick/editors",
+        "teams": "https://api.twitch.tv/kraken/channels/gamesdonequick/teams",
+        "videos": "https://api.twitch.tv/kraken/channels/gamesdonequick/videos"
+      }
+    },
+    "_links": {
+      "self": "https://api.twitch.tv/kraken/streams/gamesdonequick"
+    }
+  }],
+  "_links": {
+    "self": "https://api.twitch.tv/kraken/streams?limit=25\u0026stream_type=live",
+    "next": "https://api.twitch.tv/kraken/streams?limit=25\u0026offset=25\u0026stream_type=live",
+    "featured": "https://api.twitch.tv/kraken/streams/featured",
+    "summary": "https://api.twitch.tv/kraken/streams/summary",
+    "followed": "https://api.twitch.tv/kraken/streams/followed"
+  }
+}
